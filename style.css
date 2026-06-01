@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    min-height: 100vh;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color:#52D9DB;
+    font-family: "Inter";
+    font-size: 18px;
+}
+
+main {
+   flex: 1;
+}
+
+li{
+    list-style: none;
+}
+header{
+    top: 0;
+    display: flex;
+    justify-content: left;
+}
+ nav{
+    padding: 30px;
+    display: flex;
+    
+}
+.bts {
+    text-decoration: none;
+    font-weight: bold;
+    color: green;
+    padding: 10px;
+}
+.bts:hover{
+    color: #fff;
+}
+
+    
+#bandeira-do-brasil {
+    margin-top: 3rem;
+    color: green;
+    text-align: center;
+}
+.sub-titulo {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.menu-itens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+ .texto {
+    font-size: 16px;
+    color: blue;
+    text-align: justify;
+    margin: 0 5rem;
+}
+
+audio {
+  background-color: white;
+  border-radius: 12px;
+}
+
+
+.audio-custom::-webkit-media-controls-panel {
+  background-color: white;
+}
+
+.audio-custom::-webkit-media-controls-play-button,
+.audio-custom::-webkit-media-controls-mute-button {
+  filter: brightness(0);
+}
+
+   
+footer{
+        background-color: green;
+        color: rgb(0, 0, 0);
+        font-family: "Montserrat", sans-serif;
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+
+/* pagina 2 */
+
+.tabela{
+    text-align: center;
+    border-spacing: 0;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+ td{
+    border: 2px solid green;
+    
+}
+.mapa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+.bts-2{
+    padding: 15px 10px;
+    border: 2px solid transparent;
+    background-color: green;
+    color: black;
+    border-radius: 10px;
+    margin-bottom: 4rem;
+}
